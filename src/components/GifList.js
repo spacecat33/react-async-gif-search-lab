@@ -1,6 +1,6 @@
 import React, { Component} from 'react';
 
-class GifList extends Component {
+export default class GifList extends Component {
   render(){
     return(
       <div>
@@ -11,5 +11,3 @@ class GifList extends Component {
     )
   }
 }
-
-export default GifList

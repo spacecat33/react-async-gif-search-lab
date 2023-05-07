@@ -1,9 +1,6 @@
-
- 
-
 import React, { Component} from 'react';
 
-class GifSearch extends Component {
+export default class GifSearch extends Component {
   constructor(){
     super()
     this.state = { searchTerm: "" }
@@ -31,5 +28,3 @@ class GifSearch extends Component {
     )
   }
 }
-
-export default GifSearch

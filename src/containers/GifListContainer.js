@@ -11,6 +11,7 @@ export default class GifListContainer extends Component {
   handleSearchSubmit = data => {
     alert(`You searched for ${data.searchTerm}`)
     fetch(`https://api.giphy.com/v1/gifs/search?q=${data.searchTerm}&api_key=WdGDzV4EdZRawJ20PlAWzlKsl1ZqMqQV&rating=g`)
+      .then(res => res.json())
       .then(json => {
           const array = json.data.slice(0, 3)
           console.log(array);
@@ -29,3 +30,6 @@ export default class GifListContainer extends Component {
     )
   }
 }
+
+
+// https://api.giphy.com/v1/gifs/search?q=${data.searchTerm}&api_key=WdGDzV4EdZRawJ20PlAWzlKsl1ZqMqQV&rating=g`)
