@@ -16,4 +16,3 @@ function App() {
 
 export default App
 
-// MY GIPHY API KEY: https://api.giphy.com/v1/gifs/search?q=dolphin&api_key=WdGDzV4EdZRawJ20PlAWzlKsl1ZqMqQV&rating=g

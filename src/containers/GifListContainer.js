@@ -30,6 +30,3 @@ export default class GifListContainer extends Component {
     )
   }
 }
-
-
-// https://api.giphy.com/v1/gifs/search?q=${data.searchTerm}&api_key=WdGDzV4EdZRawJ20PlAWzlKsl1ZqMqQV&rating=g`)
